@@ -9,7 +9,7 @@ $(document).ready(function()
 				url: '/echo/html/',
 				success: function(data) 
 				{
-					alert('new complete');
+					alert('function a complete');
 					o.markDone();
 				}
 			})

@@ -14,6 +14,7 @@ var MyNewClass=(function()
 		{
 			for(var i=1;i<=this.registeredFunctions;i++)
 				this['function'+i]();
+			setTimeout(this.callback,2000);
 		};
 
 		this.callback=function()
