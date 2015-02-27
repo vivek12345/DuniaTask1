@@ -27,7 +27,7 @@ var MyNewClass=(function()
 			this.count++;
 			if(this.count==this.registeredFunctions)
 			{
-				alert("all function executed,calling callback now");
+				alert("All function executed,calling callback now");
 				this.callback();
 			}
 
